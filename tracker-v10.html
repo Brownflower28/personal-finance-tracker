@@ -1080,12 +1080,12 @@
                 console.log('Redirecting to login page...');
                 
                 // Use relative path for local files
-                window.location.href = './login-v6.html';
+                window.location.href = './index.html';
             }).catch((error) => {
                 console.log('Firebase sign out error:', error);
                 // If Firebase signout fails, still redirect
                 console.log('Redirecting anyway...');
-                window.location.href = './login-v6.html';
+                window.location.href = './index.html';
             });
         }
 
@@ -1299,7 +1299,7 @@
                     // Add a small delay to see the logs, then redirect
                     setTimeout(() => {
                         console.log('Executing redirect now...');
-                        window.location.href = './login-v6.html';
+                        window.location.href = './index.html';
                     }, 2000);
                 }
             });
